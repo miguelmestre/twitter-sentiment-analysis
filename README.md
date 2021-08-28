@@ -7,6 +7,11 @@ https://www.buymeacoffee.com/miguelmamfm
 
 # Requirements
 You need to have a valid Twitter API Key and Secret and add it to your environment variables.
+Example:
+```
+API-KEY="YRXXXXXXXXXXXXXXXno"
+API-SECRET="uQEdXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXiQF2JK"
+```
 
 # Install
 ```
