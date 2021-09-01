@@ -33,9 +33,7 @@ class TwitterAnalysis():
                 return topic, number
 
     def normalize_tweets(self, tweet):
-        """ Normalizes the tweet by removing commas, spliting into separate words
-        and doesn't consider hashtags
-        """
+        """ Normalizes the tweet """
         tweet_words = tweet.split(' ')
         normalized_tweet = [word for word in tweet_words if not word.startswith('#')]
         return ' '.join(normalized_tweet)
